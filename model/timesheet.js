@@ -21,6 +21,10 @@ const TimesheetSchema = mongoose.Schema({
   duration: {
     type: String,
     required: true,  
+  },
+  projectcount: {
+    type: Number,
+    required: true,  
   }
 });
 
